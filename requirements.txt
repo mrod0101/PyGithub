@@ -1,6 +1,10 @@
 pynacl>=1.4.0
-requests>=2.14.0
+requests>=2.31.0
 pyjwt>=2.0
 sphinx<3
 sphinx-rtd-theme<1.1
 Deprecated
+certifi>=2024.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.15.0 # not directly required, pinned by Snyk to avoid a vulnerability
